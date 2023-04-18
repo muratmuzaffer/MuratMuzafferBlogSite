@@ -1,0 +1,688 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Delicious Handrawn','Gruppo','Michroma','Redacted Script',
+       'Shadows Into Light','Source Code Pro','Bebas Neue','Marck Script','Raleway','Orbitron',sans-serif; 
+}
+#menu{
+    height: 80px;
+    padding: 0 20;
+    font-family: 'Gruppo';
+    font-size: 15px;
+    
+}
+#logo{
+    font-family: 'Orbitron';
+    font-size: 30px;
+    line-height: 30px;
+    color:black;
+    float: left;
+    margin-left: 550px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#sagmenu{
+    float: right;
+    margin-right: 200px;
+    margin-top: 25px;
+    
+}
+#sagpad1{
+    padding: 5px 25px;
+    float: right;
+    
+}
+#sagpad2{
+    padding: 5px 25px;
+    float: right;
+}
+#solmenu{
+    float: left;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+#solpad1{
+    
+    padding: 5px 25px;
+    float: right;
+}
+#solpad2{
+    padding: 5px 25px;
+    float: right;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:black;
+}
+nav a:hover{
+    border-bottom: 2px solid
+    black;
+}
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color:black;
+}
+.ikon{
+    margin-right: 7px;
+    font-size: 15px;
+    padding: 7px 0px;
+}
+#anasayfa{
+    
+    height: 600px;
+    background-color: black;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#icerik{
+    position: absolute;
+    top: 40%;
+    left:20%;
+    color: white;
+    
+
+}
+#basp{
+    
+    font-family: 'Delicious Handrawn';
+    font-size: 35px;
+    line-height: 0px;
+}
+#h2bas{
+    
+    font-family: 'Raleway';
+    font-size: 50px;
+}
+#dikey{
+    width: 2px;
+    height: 200px;
+    margin-top: 38px;
+    background-color: white;
+    float: left;
+    margin-right: 20px;
+}
+input.gonderr{
+    font-size: 20px;
+    font-family: 'Source Code Pro';
+    margin-top: 420px;
+    margin-left: 285px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor:pointer;
+
+}
+#hakkimda{
+    background-color:snow;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    background-attachment: fixed;
+}
+#h3about{
+    font-family: 'Raleway';
+    font-size: 65px;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+    
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+#sol{
+    float: left;
+    font-family:'Marck Script'; 
+    border-right: 3px solid black;
+    font-size: 23px;
+    width: 530px;
+    color: black;
+    margin-left: 70px;
+}
+#h5sol{
+    margin-top: 30px;
+    line-height: 1.6;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: end;
+    padding-right: 30px;
+    margin-right: 5px;
+}
+
+    
+#span2{
+    font-size: 60px;
+    margin-left: 0px;
+    margin-top: 20px;
+    line-height: 42px;
+}
+span{
+    font-size: 60px;
+    margin-right: 1px;
+    line-height: 42px;
+    color:black;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family:'Marck Script'; 
+    font-weight: 100;
+    float: left;
+    
+}
+#sag{
+    float: right;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 500px;
+    color: black;
+    font-family:'Marck Script';
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 23px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.mt100{
+    margin-top: 30px;
+}
+#resume{
+    height: 1050px;
+    background-color:black;
+    text-align: center;
+    
+}
+#h6bas{
+    color: white;
+    font-size: 65px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    padding: 10px 0px 0px 0px;
+}
+#altb{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+html {
+  box-sizing: border-box;
+  font-family: 'Gruppo';
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.timeline {
+  text-align: center;
+}
+.timeline .year {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: bold;
+  position: relative;
+}
+.timeline .year span {
+  display: inline-block;
+  padding-bottom: 6px;
+}
+.timeline .year:after {
+  content: "";
+  display: block;
+  width: 80%;
+  margin: auto;
+  height: 1px;
+  background: white;
+}
+.timeline .year--end:before {
+  content: "";
+  display: block;
+  width: 80%;
+  margin: auto;
+  height: 1px;
+  background: white;
+}
+.timeline .year--end:after {
+  content: none;
+}
+.timeline .days {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.timeline .days .day {
+  width: 100%;
+  float: left;
+}
+.timeline .days .day .events {
+  position: relative;
+  float: left;
+  border-right: 1px solid white;
+  padding: 30px;
+  text-align: right;
+  width: 50%;
+}
+.timeline .days .day .events:after {
+  content: "";
+  width: 40%;
+  display: inline-block;
+  height: 1px;
+  background: white;
+  position: absolute;
+  right: 0;
+}
+.timeline .days .day .events .date {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  padding: 30px;
+  text-align: left;
+  color: white;
+  font-size: 24px;
+  white-space: nowrap;
+}
+.timeline .days .day .events .day__img {
+  margin-right: -30px;
+  position: relative;
+  overflow: hidden;
+}
+.timeline .days .day .events .day__img img {
+  display: block;
+  float: right;
+}
+.timeline .days .day .events .day__img .caption {
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 1);
+  color: #fff;
+}
+.timeline .days .day:nth-child(odd) .events {
+  width: calc(50% + 1px);
+  float: right;
+  border-right: 0;
+  border-left: 1px solid white;
+  text-align: left;
+}
+.timeline .days .day:nth-child(odd) .events:after {
+  right: auto;
+  left: 0;
+}
+.timeline .days .day:nth-child(odd) .events .date {
+  left: auto;
+  right: 100%;
+  text-align: right;
+}
+.timeline .days .day:nth-child(odd) .events .day__img {
+  margin-right: auto;
+  margin-left: -30px;
+}
+.timeline .days .day:nth-child(odd) .events .day__img img {
+  float: left;
+}
+.timeline .days .day:nth-child(odd) .events .day__img .caption {
+  right: auto;
+  left: 0;
+}
+.events{
+    color:white;
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+.sf{
+    color: white;
+    font-family: 'Raleway';
+}
+
+#hbasp{
+    color: black;
+    font-size: 65px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+.resim-alani {
+  position: relative;
+  display: inline-block;
+}
+
+.yazi-alani {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+
+.yazi-alani h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Raleway'; 
+  margin-bottom: 0.5em;
+}
+
+.yazi-alani p {
+  color: #fff;
+    font-family: 'Redacted Script';
+  font-size: 1.3em;
+}
+
+.resim-alani:hover .yazi-alani {
+  opacity: 1;
+}
+.renkli-filtre1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* buradaki 0.5 yarı-opaklık derecesini belirtir, 0 ile 1 arasında değer alabilir */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+.resim-alani:hover .renkli-filtre1 {
+  opacity: 1;
+}
+.renkli-filtre2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 145, 0, 0.8); /* buradaki 0.5 yarı-opaklık derecesini belirtir, 0 ile 1 arasında değer alabilir */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+.resim-alani:hover .renkli-filtre2 {
+  opacity: 1;
+}
+.renkli-filtre3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 50, 90, 0.8); /* buradaki 0.5 yarı-opaklık derecesini belirtir, 0 ile 1 arasında değer alabilir */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+.resim-alani:hover .renkli-filtre3 {
+  opacity: 1;
+}
+.renkli-filtre4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(153, 0, 153, 0.8); /* buradaki 0.5 yarı-opaklık derecesini belirtir, 0 ile 1 arasında değer alabilir */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+.resim-alani:hover .renkli-filtre4 {
+  opacity: 1;
+}
+.renkli-filtre5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(64, 64, 64, 0.8); /* buradaki 0.5 yarı-opaklık derecesini belirtir, 0 ile 1 arasında değer alabilir */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+.resim-alani:hover .renkli-filtre5 {
+  opacity: 1;
+}
+.renkli-filtre6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(153, 76, 0, 0.8); /* buradaki 0.5 yarı-opaklık derecesini belirtir, 0 ile 1 arasında değer alabilir */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+.resim-alani:hover .renkli-filtre6 {
+  opacity: 1;
+}
+.renkli-filtre7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.8); /* buradaki 0.5 yarı-opaklık derecesini belirtir, 0 ile 1 arasında değer alabilir */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+.resim-alani:hover .renkli-filtre7 {
+  opacity: 1;
+}
+.renkli-filtre8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(204, 0, 102, 0.8); /* buradaki 0.5 yarı-opaklık derecesini belirtir, 0 ile 1 arasında değer alabilir */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+.resim-alani:hover .renkli-filtre8 {
+  opacity: 1;
+}
+.renkli-filtre9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 255, 255, 0.8); /* buradaki 0.5 yarı-opaklık derecesini belirtir, 0 ile 1 arasında değer alabilir */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+.resim-alani:hover .renkli-filtre9 {
+  opacity: 1;
+}
+.renkli-filtre10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.8); /* buradaki 0.5 yarı-opaklık derecesini belirtir, 0 ile 1 arasında değer alabilir */
+  opacity: 0;
+  transition: opacity 0.5s ease; /* geçiş efekti süresi ve hızı */
+}
+.resim-alani:hover .renkli-filtre10 {
+  opacity: 1;
+}
+
+#contact{
+    height: 1100px;
+    background-color: black;
+    margin-top: 40px;
+}
+#hbaspp{
+    color: white;
+    font-size: 65px;
+    font-family: 'Raleway';
+    text-align: center;
+    padding: 8px 0px 0px 0px;
+}
+#tbl1id{
+    font-family: 'Raleway';
+    color:white;
+}
+#ilkbas{
+    font-size: 45px;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+h5{
+    font-size: 20px;
+    line-height: 0;
+}
+#adres{
+    font-size: 20px;
+    
+    
+}
+#bursaust{
+    margin-left: 35px;
+}
+#izmirust{
+    margin-left: 35px;
+}
+#map{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+
+#iletisimopak{
+    
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+    
+}
+#formgroup{
+    width: 500px;
+    float: left;
+    height: 150px;
+    
+}
+#solform{
+    width: 250px;
+    float: left;
+    padding-right: 5px;
+}
+
+#sagform{
+    width: 250px;
+    float: left;
+    padding-left: 5px;
+}
+.formcontrol{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4dea;
+}
+textarea{
+    font-family: sans-serif;
+    float: right;
+}
+
+
+input.gonder{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-top: 2px gray solid;
+    border-left: 2px gray solid;
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    font:bold 30px 'Source Code Pro';
+    margin-top: 40px;
+    margin-left: 390px;
+    /*<button type="submit" class="indir">CV İNDİR</button>*/
+}
+
+#textbuton{
+    width: 700px;
+    float: right;
+    height: 150px;
+    
+}
+#altson{
+    font-family: 'Raleway';
+    font-size: 17px;
+    margin-left: 15px;
+    color: white;
+    margin-top: 170px;
+}
+.pikon{
+    padding-right: 10px;
+}
+
+#copyright{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+    font-family: 'Raleway';
+    text-align: center;
+    float: left;
+    margin-left: 500px;
+
+}
+#up{
+    
+    
+    border: 1px solid black;
+    border-radius: 60%;
+    font-size: 15px;
+    padding: 13px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+    
+}
+#footer{
+    height: 100px;
+    background-color: white;
+    margin-right: 20px;
+}
+.social{
+    color: black;
+    padding-top: 10px;
+}
+#socialfooter{
+    
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+}
